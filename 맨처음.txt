@@ -1,0 +1,29 @@
+맨처음
+git bash here 열고
+1. git init -> git status로 inti성공 확인
+2. git ignore설정
+3. git add . -> git status로 성공확인
+4. git commit -m "커밋 메시지 작성"
+5. git branch -M main
+6. git remote add origin https://github.com/000.git
+   ㄴ링크 복붙할 때 쉬프트+인서트키
+7. git push -u origin main
+
+
+
+
+
+push하는법
+1. git add .
+2. git commit -m "커밋메세지"
+3. git push 
+//git push -u origin main (처음만)
+
+
+
+pull 하는법
+1. git fetch --all
+2. git pull
+
+git commit --amend -m "여기에 수정할 커밋 메시지 입력"
+git push -f origin main
